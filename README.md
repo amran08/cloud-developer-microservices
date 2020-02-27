@@ -7,7 +7,10 @@ https://github.com/amran08/cloud-developer-microservices
 ## Dockerhub Link:
 
 https://hub.docker.com/u/amran08
-https://hub.docker.com/r/amran08/udacity-frontend https://hub.docker.com/r/muttalebm/udacity-reverse-proxy https://hub.docker.com/r/amran08/udacity-restapi-feed https://hub.docker.com/r/muttalebm/udacity-restapi-user
+https://hub.docker.com/r/amran08/udacity-frontend
+https://hub.docker.com/r/amran08/udacity-reverse-proxy 
+https://hub.docker.com/r/amran08/udacity-restapi-feed 
+https://hub.docker.com/r/amran08/udacity-restapi-user
 
 
 ## Kubernetes Deployment
