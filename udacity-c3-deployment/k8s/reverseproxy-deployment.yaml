@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: muttalebm/udacity-reverse-proxy
+      - image: amran08/udacity-reverse-proxy
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
@@ -28,5 +28,3 @@ spec:
         ports:
         - containerPort: 8080
       restartPolicy: Always
-
-

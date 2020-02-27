@@ -15,7 +15,7 @@ spec:
         service: backend-user
     spec:
       containers:
-      - image: muttalebm/udacity-restapi-user
+      - image: amran08/udacity-restapi-user
         name: backend-user 
         imagePullPolicy: Always  
         resources:
@@ -57,5 +57,3 @@ spec:
               name: env-secret
               key: POSTGRESS_USERNAME
       restartPolicy: Always
-
-

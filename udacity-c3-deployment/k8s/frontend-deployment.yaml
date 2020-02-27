@@ -16,7 +16,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: muttalebm/udacity-frontend
+      - image: amran08/udacity-frontend
         name: frontend
         imagePullPolicy: Always          
         ports:
@@ -29,4 +29,3 @@ spec:
             memory: "1024Mi"
             cpu: "500m"                
       restartPolicy: Always
-
