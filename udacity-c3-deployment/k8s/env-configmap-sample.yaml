@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: gpcfit-s3-bucket
+  AWS_PROFILE: default
+  AWS_REGION: ap-southeast-1
+  JWT_SECRET: helloworld
+  POSTGRESS_DB:  gpcfit
+  POSTGRESS_HOST: gpcfit.cxreaq9haqcc.ap-southeast-1.rds.amazonaws.com
+  URL: http://localhost:8100
+metadata:
+  name: env-config
+  
