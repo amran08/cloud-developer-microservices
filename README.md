@@ -16,13 +16,16 @@ Created Kubernetes cluster using minikube
 
 minikube start --cpu=4 --memory=8192
 
-Create Your own secret and config file
+## Create Your own secret and config file
 
+```
 mv udacity-c3-deployment/k8s/samples/aws-secret-sample.yaml udacity-c3-deployment/k8s/aws-secret.yaml
 mv udacity-c3-deployment/k8s/samples/env-secret-sample.yaml udacity-c3-deployment/k8s/env-secret.yaml
 mv udacity-c3-deployment/k8s/samples/env-configmap-sample.yaml udacity-c3-deployment/k8s/env-configmap.yaml
 
-for Deploy application using services and deployment
+```
+
+##for Deploy application using services and deployment
 
 kubectl apply -f udacity-c3-deployment/k8s
 
